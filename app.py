@@ -4,10 +4,8 @@ import sys
 import json
 from flask_heroku import Heroku
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 app = Flask( __name__ )
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 
