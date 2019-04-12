@@ -4,13 +4,7 @@ import sys
 import json
 from flask_heroku import Heroku
 
-<<<<<<< HEAD
-
-=======
->>>>>>> caf1603a60a4f389814d6e3f51da54b10aac252c
 app = Flask( __name__ )
-
-
 
 heroku = Heroku(app)
 db = SQLAlchemy(app)
